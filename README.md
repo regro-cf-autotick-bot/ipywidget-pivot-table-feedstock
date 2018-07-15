@@ -1,7 +1,7 @@
-About ipywidget-pivot-table
-===========================
+About ipypivot
+==============
 
-Home: https://github.com/PierreMarion23/pivot-table-widget
+Home: https://github.com/PierreMarion23/ipypivot
 
 Package license: MIT
 
@@ -16,34 +16,35 @@ It enables to display and embed a pivotTable in a Jupyter notebook in a few Pyth
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/ipywidget-pivot-table-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/ipywidget-pivot-table-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/ipywidget-pivot-table-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/ipywidget-pivot-table-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/ipywidget-pivot-table-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/ipywidget-pivot-table-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/ipywidget-pivot-table-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/ipywidget-pivot-table-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/ipywidget-pivot-table/badges/version.svg)](https://anaconda.org/conda-forge/ipywidget-pivot-table)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/ipywidget-pivot-table/badges/downloads.svg)](https://anaconda.org/conda-forge/ipywidget-pivot-table)
 
-Installing ipywidget-pivot-table
-================================
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-ipypivot-green.svg)](https://anaconda.org/conda-forge/ipypivot) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/ipypivot.svg)](https://anaconda.org/conda-forge/ipypivot) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/ipypivot.svg)](https://anaconda.org/conda-forge/ipypivot) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/ipypivot.svg)](https://anaconda.org/conda-forge/ipypivot) |
 
-Installing `ipywidget-pivot-table` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing ipypivot
+===================
+
+Installing `ipypivot` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
 
 ```
 conda config --add channels conda-forge
 ```
 
-Once the `conda-forge` channel has been enabled, `ipywidget-pivot-table` can be installed with:
+Once the `conda-forge` channel has been enabled, `ipypivot` can be installed with:
 
 ```
-conda install ipywidget-pivot-table
+conda install ipypivot
 ```
 
-It is possible to list all of the versions of `ipywidget-pivot-table` available on your platform with:
+It is possible to list all of the versions of `ipypivot` available on your platform with:
 
 ```
-conda search ipywidget-pivot-table --channel conda-forge
+conda search ipypivot --channel conda-forge
 ```
 
 
@@ -83,17 +84,17 @@ Terminology
                   produce the finished article (built conda distributions)
 
 
-Updating ipywidget-pivot-table-feedstock
-========================================
+Updating ipypivot-feedstock
+===========================
 
-If you would like to improve the ipywidget-pivot-table recipe or build a new
+If you would like to improve the ipypivot recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `conda-forge` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `conda-forge` channel.
-Note that all branches in the conda-forge/ipywidget-pivot-table-feedstock are
+Note that all branches in the conda-forge/ipypivot-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
