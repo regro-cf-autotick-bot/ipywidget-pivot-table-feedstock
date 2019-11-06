@@ -34,6 +34,7 @@ test:
 about:
   home: https://github.com/PierreMarion23/ipypivot
   license: MIT
+  license_file: LICENSE
   license_family: MIT
   summary: 'A jupyter widget (or ipywidget) wrapping the very convenient pivotTable.js library'
 
